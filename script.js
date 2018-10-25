@@ -26,18 +26,7 @@ var options = [
   "Concentrate and ask again"
 ];
 
-/*
-button.addEventListener("click", function(){
-  if (input.value.length < 1) {
-    alert("Please enter a question!");
-  }
-  else{
-    eight.innerText = "";  
-    var num = input.value.length % options.length;
-    answer.innerText = options[num];
-  }
-});
-*/
+//TODO: Animate ball
 
 if(button){
   addEventListener("click", function(){
