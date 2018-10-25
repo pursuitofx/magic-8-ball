@@ -7,14 +7,14 @@ var options = [
   "It is certain",
   "It is decidedly so",
   "Without a doubt",
-  "Yes â€“ definitely",
+  "Yes – definitely",
   "You may rely on it",
   "As I see it, yes",
   "Most likely",
   "Outlook good",
   "Yes",
   "Signs point to yes",
-  "Donâ€™t count on it",
+  "Don’t count on it",
   "My reply is no",
   "My sources say no",
   "Outlook not so good",
@@ -26,10 +26,8 @@ var options = [
   "Concentrate and ask again"
 ];
 
-//TODO: Animate ball
-
 if(button){
-  addEventListener("click", function(){
+  button.addEventListener("click", function(){
   if (input.value.length < 1) {
     alert("Please enter a question!");
   }
