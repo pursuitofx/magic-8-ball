@@ -35,7 +35,7 @@ if(button){
     eight.innerText = "";  
     var random = getRandomInt(options.length);
     //var num = random % options.length;
-    answer.innerText = options[num];
+    answer.innerText = options[random];
   }
 });
 }
