@@ -33,8 +33,13 @@ if(button){
   }
   else{
     eight.innerText = "";  
-    var num = input.value.length % options.length;
+    var random = getRandomInt(options.length);
+    var num = random % options.length;
     answer.innerText = options[num];
   }
 });
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
